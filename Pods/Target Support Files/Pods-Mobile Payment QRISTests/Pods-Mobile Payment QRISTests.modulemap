@@ -1,0 +1,6 @@
+framework module Pods_Mobile_Payment_QRISTests {
+  umbrella header "Pods-Mobile Payment QRISTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

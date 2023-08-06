@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B25B0E8C4AEE5AA248C41C2 /* Pods_Mobile_Payment_QRISTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B7B00471B92CEDC3946070 /* Pods_Mobile_Payment_QRISTests.framework */; };
+		351BD413D01940F9FC925CFA /* Pods_Mobile_Payment_QRIS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD420B0D8C4B0A76B84ADAA8 /* Pods_Mobile_Payment_QRIS.framework */; };
+		7E9341977D57E98377057796 /* Pods_Mobile_Payment_QRIS_Mobile_Payment_QRISUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79DF87DDAB02651F99DF82EB /* Pods_Mobile_Payment_QRIS_Mobile_Payment_QRISUITests.framework */; };
 		AF2811962A7E5CD6007DEC66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2811952A7E5CD6007DEC66 /* AppDelegate.swift */; };
 		AF2811982A7E5CD6007DEC66 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2811972A7E5CD6007DEC66 /* SceneDelegate.swift */; };
-		AF28119A2A7E5CD6007DEC66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2811992A7E5CD6007DEC66 /* ViewController.swift */; };
-		AF28119D2A7E5CD6007DEC66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF28119B2A7E5CD6007DEC66 /* Main.storyboard */; };
+		AF28119A2A7E5CD6007DEC66 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2811992A7E5CD6007DEC66 /* ScannerViewController.swift */; };
 		AF28119F2A7E5CD7007DEC66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF28119E2A7E5CD7007DEC66 /* Assets.xcassets */; };
 		AF2811A22A7E5CD7007DEC66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF2811A02A7E5CD7007DEC66 /* LaunchScreen.storyboard */; };
 		AF2811AD2A7E5CD7007DEC66 /* Mobile_Payment_QRISTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2811AC2A7E5CD7007DEC66 /* Mobile_Payment_QRISTests.swift */; };
 		AF2811B72A7E5CD7007DEC66 /* Mobile_Payment_QRISUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2811B62A7E5CD7007DEC66 /* Mobile_Payment_QRISUITests.swift */; };
 		AF2811B92A7E5CD7007DEC66 /* Mobile_Payment_QRISUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2811B82A7E5CD7007DEC66 /* Mobile_Payment_QRISUITestsLaunchTests.swift */; };
+		AF679EBB2A7E81560023ECED /* PaymentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF679EBA2A7E81560023ECED /* PaymentDetailViewController.swift */; };
+		AF679EBD2A7E89260023ECED /* HomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF679EBC2A7E89260023ECED /* HomepageViewController.swift */; };
+		AF679EBF2A7EB0D30023ECED /* ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF679EBE2A7EB0D30023ECED /* ObservableObject.swift */; };
+		AF679EC12A7EB13E0023ECED /* PaymentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF679EC02A7EB13E0023ECED /* PaymentViewModel.swift */; };
+		AF679EC32A7EB1590023ECED /* PaymentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF679EC22A7EB1590023ECED /* PaymentModel.swift */; };
+		AF679EC52A7F62F40023ECED /* ScannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF679EC42A7F62F40023ECED /* ScannerViewModel.swift */; };
+		AF679EC72A7F6E440023ECED /* TransactionHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF679EC62A7F6E440023ECED /* TransactionHistoryViewController.swift */; };
+		AF679EC92A7F70AB0023ECED /* TransactionHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF679EC82A7F70AB0023ECED /* TransactionHistoryTableViewCell.swift */; };
+		AF679ECB2A7F74320023ECED /* TransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF679ECA2A7F74320023ECED /* TransactionViewModel.swift */; };
+		AF679EDC2A7FDC720023ECED /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF679EDA2A7FDC720023ECED /* CoreDataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +48,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		58D695B3436E95F78F216CDC /* Pods-Mobile Payment QRIS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobile Payment QRIS.release.xcconfig"; path = "Target Support Files/Pods-Mobile Payment QRIS/Pods-Mobile Payment QRIS.release.xcconfig"; sourceTree = "<group>"; };
+		76B7B00471B92CEDC3946070 /* Pods_Mobile_Payment_QRISTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobile_Payment_QRISTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79DF87DDAB02651F99DF82EB /* Pods_Mobile_Payment_QRIS_Mobile_Payment_QRISUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobile_Payment_QRIS_Mobile_Payment_QRISUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81F9D10C0230B9A8EEC3E006 /* Pods-Mobile Payment QRIS-Mobile Payment QRISUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobile Payment QRIS-Mobile Payment QRISUITests.debug.xcconfig"; path = "Target Support Files/Pods-Mobile Payment QRIS-Mobile Payment QRISUITests/Pods-Mobile Payment QRIS-Mobile Payment QRISUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F31FBC2ADAB421936FD4CEB /* Pods-Mobile Payment QRIS-Mobile Payment QRISUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobile Payment QRIS-Mobile Payment QRISUITests.release.xcconfig"; path = "Target Support Files/Pods-Mobile Payment QRIS-Mobile Payment QRISUITests/Pods-Mobile Payment QRIS-Mobile Payment QRISUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AD420B0D8C4B0A76B84ADAA8 /* Pods_Mobile_Payment_QRIS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobile_Payment_QRIS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF2811922A7E5CD6007DEC66 /* Mobile Payment QRIS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobile Payment QRIS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF2811952A7E5CD6007DEC66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF2811972A7E5CD6007DEC66 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AF2811992A7E5CD6007DEC66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AF28119C2A7E5CD6007DEC66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF2811992A7E5CD6007DEC66 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
 		AF28119E2A7E5CD7007DEC66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF2811A12A7E5CD7007DEC66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF2811A32A7E5CD7007DEC66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +66,19 @@
 		AF2811B22A7E5CD7007DEC66 /* Mobile Payment QRISUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobile Payment QRISUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF2811B62A7E5CD7007DEC66 /* Mobile_Payment_QRISUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile_Payment_QRISUITests.swift; sourceTree = "<group>"; };
 		AF2811B82A7E5CD7007DEC66 /* Mobile_Payment_QRISUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile_Payment_QRISUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AF679EBA2A7E81560023ECED /* PaymentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailViewController.swift; sourceTree = "<group>"; };
+		AF679EBC2A7E89260023ECED /* HomepageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageViewController.swift; sourceTree = "<group>"; };
+		AF679EBE2A7EB0D30023ECED /* ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject.swift; sourceTree = "<group>"; };
+		AF679EC02A7EB13E0023ECED /* PaymentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewModel.swift; sourceTree = "<group>"; };
+		AF679EC22A7EB1590023ECED /* PaymentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentModel.swift; sourceTree = "<group>"; };
+		AF679EC42A7F62F40023ECED /* ScannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewModel.swift; sourceTree = "<group>"; };
+		AF679EC62A7F6E440023ECED /* TransactionHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistoryViewController.swift; sourceTree = "<group>"; };
+		AF679EC82A7F70AB0023ECED /* TransactionHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		AF679ECA2A7F74320023ECED /* TransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewModel.swift; sourceTree = "<group>"; };
+		AF679EDB2A7FDC720023ECED /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		BBFEC411515CD30AA8CD5D4E /* Pods-Mobile Payment QRISTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobile Payment QRISTests.release.xcconfig"; path = "Target Support Files/Pods-Mobile Payment QRISTests/Pods-Mobile Payment QRISTests.release.xcconfig"; sourceTree = "<group>"; };
+		C249505909A070FD61AF8FBA /* Pods-Mobile Payment QRIS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobile Payment QRIS.debug.xcconfig"; path = "Target Support Files/Pods-Mobile Payment QRIS/Pods-Mobile Payment QRIS.debug.xcconfig"; sourceTree = "<group>"; };
+		EFA1EA6CCD683ECDA5F0FA77 /* Pods-Mobile Payment QRISTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobile Payment QRISTests.debug.xcconfig"; path = "Target Support Files/Pods-Mobile Payment QRISTests/Pods-Mobile Payment QRISTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				351BD413D01940F9FC925CFA /* Pods_Mobile_Payment_QRIS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B25B0E8C4AEE5AA248C41C2 /* Pods_Mobile_Payment_QRISTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +102,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E9341977D57E98377057796 /* Pods_Mobile_Payment_QRIS_Mobile_Payment_QRISUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64B6B219EA090620B34F1E9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD420B0D8C4B0A76B84ADAA8 /* Pods_Mobile_Payment_QRIS.framework */,
+				79DF87DDAB02651F99DF82EB /* Pods_Mobile_Payment_QRIS_Mobile_Payment_QRISUITests.framework */,
+				76B7B00471B92CEDC3946070 /* Pods_Mobile_Payment_QRISTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65EF45BC186693E4E4512746 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C249505909A070FD61AF8FBA /* Pods-Mobile Payment QRIS.debug.xcconfig */,
+				58D695B3436E95F78F216CDC /* Pods-Mobile Payment QRIS.release.xcconfig */,
+				81F9D10C0230B9A8EEC3E006 /* Pods-Mobile Payment QRIS-Mobile Payment QRISUITests.debug.xcconfig */,
+				8F31FBC2ADAB421936FD4CEB /* Pods-Mobile Payment QRIS-Mobile Payment QRISUITests.release.xcconfig */,
+				EFA1EA6CCD683ECDA5F0FA77 /* Pods-Mobile Payment QRISTests.debug.xcconfig */,
+				BBFEC411515CD30AA8CD5D4E /* Pods-Mobile Payment QRISTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AF2811892A7E5CD6007DEC66 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +139,8 @@
 				AF2811AB2A7E5CD7007DEC66 /* Mobile Payment QRISTests */,
 				AF2811B52A7E5CD7007DEC66 /* Mobile Payment QRISUITests */,
 				AF2811932A7E5CD6007DEC66 /* Products */,
+				65EF45BC186693E4E4512746 /* Pods */,
+				64B6B219EA090620B34F1E9A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +157,11 @@
 		AF2811942A7E5CD6007DEC66 /* Mobile Payment QRIS */ = {
 			isa = PBXGroup;
 			children = (
+				AF679ECE2A7F744D0023ECED /* View */,
+				AF679ECD2A7F74470023ECED /* ViewModel */,
+				AF679ECC2A7F743C0023ECED /* Model */,
 				AF2811952A7E5CD6007DEC66 /* AppDelegate.swift */,
 				AF2811972A7E5CD6007DEC66 /* SceneDelegate.swift */,
-				AF2811992A7E5CD6007DEC66 /* ViewController.swift */,
-				AF28119B2A7E5CD6007DEC66 /* Main.storyboard */,
 				AF28119E2A7E5CD7007DEC66 /* Assets.xcassets */,
 				AF2811A02A7E5CD7007DEC66 /* LaunchScreen.storyboard */,
 				AF2811A32A7E5CD7007DEC66 /* Info.plist */,
@@ -127,6 +186,38 @@
 			path = "Mobile Payment QRISUITests";
 			sourceTree = "<group>";
 		};
+		AF679ECC2A7F743C0023ECED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF679EDA2A7FDC720023ECED /* CoreDataModel.xcdatamodeld */,
+				AF679EC22A7EB1590023ECED /* PaymentModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AF679ECD2A7F74470023ECED /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AF679ECA2A7F74320023ECED /* TransactionViewModel.swift */,
+				AF679EBE2A7EB0D30023ECED /* ObservableObject.swift */,
+				AF679EC02A7EB13E0023ECED /* PaymentViewModel.swift */,
+				AF679EC42A7F62F40023ECED /* ScannerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AF679ECE2A7F744D0023ECED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AF679EC82A7F70AB0023ECED /* TransactionHistoryTableViewCell.swift */,
+				AF679EBC2A7E89260023ECED /* HomepageViewController.swift */,
+				AF679EC62A7F6E440023ECED /* TransactionHistoryViewController.swift */,
+				AF2811992A7E5CD6007DEC66 /* ScannerViewController.swift */,
+				AF679EBA2A7E81560023ECED /* PaymentDetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF2811BC2A7E5CD7007DEC66 /* Build configuration list for PBXNativeTarget "Mobile Payment QRIS" */;
 			buildPhases = (
+				2D729941FD3E7ACD71FF92AA /* [CP] Check Pods Manifest.lock */,
 				AF28118E2A7E5CD6007DEC66 /* Sources */,
 				AF28118F2A7E5CD6007DEC66 /* Frameworks */,
 				AF2811902A7E5CD6007DEC66 /* Resources */,
+				87CABBA3EE7C2F8882C6E11E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF2811BF2A7E5CD7007DEC66 /* Build configuration list for PBXNativeTarget "Mobile Payment QRISTests" */;
 			buildPhases = (
+				3455A84B87DE4A1BF12E13FA /* [CP] Check Pods Manifest.lock */,
 				AF2811A42A7E5CD7007DEC66 /* Sources */,
 				AF2811A52A7E5CD7007DEC66 /* Frameworks */,
 				AF2811A62A7E5CD7007DEC66 /* Resources */,
@@ -169,9 +263,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF2811C22A7E5CD7007DEC66 /* Build configuration list for PBXNativeTarget "Mobile Payment QRISUITests" */;
 			buildPhases = (
+				04019DA503293821FEAA5368 /* [CP] Check Pods Manifest.lock */,
 				AF2811AE2A7E5CD7007DEC66 /* Sources */,
 				AF2811AF2A7E5CD7007DEC66 /* Frameworks */,
 				AF2811B02A7E5CD7007DEC66 /* Resources */,
+				55CB3673F8AD1F62454125BC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +329,6 @@
 			files = (
 				AF2811A22A7E5CD7007DEC66 /* LaunchScreen.storyboard in Resources */,
 				AF28119F2A7E5CD7007DEC66 /* Assets.xcassets in Resources */,
-				AF28119D2A7E5CD6007DEC66 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +348,127 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04019DA503293821FEAA5368 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mobile Payment QRIS-Mobile Payment QRISUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D729941FD3E7ACD71FF92AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mobile Payment QRIS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3455A84B87DE4A1BF12E13FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mobile Payment QRISTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55CB3673F8AD1F62454125BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mobile Payment QRIS-Mobile Payment QRISUITests/Pods-Mobile Payment QRIS-Mobile Payment QRISUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mobile Payment QRIS-Mobile Payment QRISUITests/Pods-Mobile Payment QRIS-Mobile Payment QRISUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mobile Payment QRIS-Mobile Payment QRISUITests/Pods-Mobile Payment QRIS-Mobile Payment QRISUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87CABBA3EE7C2F8882C6E11E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mobile Payment QRIS/Pods-Mobile Payment QRIS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mobile Payment QRIS/Pods-Mobile Payment QRIS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mobile Payment QRIS/Pods-Mobile Payment QRIS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AF28118E2A7E5CD6007DEC66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF28119A2A7E5CD6007DEC66 /* ViewController.swift in Sources */,
+				AF679EBB2A7E81560023ECED /* PaymentDetailViewController.swift in Sources */,
+				AF28119A2A7E5CD6007DEC66 /* ScannerViewController.swift in Sources */,
+				AF679EC92A7F70AB0023ECED /* TransactionHistoryTableViewCell.swift in Sources */,
 				AF2811962A7E5CD6007DEC66 /* AppDelegate.swift in Sources */,
 				AF2811982A7E5CD6007DEC66 /* SceneDelegate.swift in Sources */,
+				AF679EC52A7F62F40023ECED /* ScannerViewModel.swift in Sources */,
+				AF679EC32A7EB1590023ECED /* PaymentModel.swift in Sources */,
+				AF679EC72A7F6E440023ECED /* TransactionHistoryViewController.swift in Sources */,
+				AF679EBD2A7E89260023ECED /* HomepageViewController.swift in Sources */,
+				AF679EC12A7EB13E0023ECED /* PaymentViewModel.swift in Sources */,
+				AF679EBF2A7EB0D30023ECED /* ObservableObject.swift in Sources */,
+				AF679EDC2A7FDC720023ECED /* CoreDataModel.xcdatamodeld in Sources */,
+				AF679ECB2A7F74320023ECED /* TransactionViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +505,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AF28119B2A7E5CD6007DEC66 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AF28119C2A7E5CD6007DEC66 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AF2811A02A7E5CD7007DEC66 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,6 +632,7 @@
 		};
 		AF2811BD2A7E5CD7007DEC66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C249505909A070FD61AF8FBA /* Pods-Mobile Payment QRIS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -440,9 +641,9 @@
 				DEVELOPMENT_TEAM = 86C7H55255;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Mobile Payment QRIS/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need the camera to scan the QR Codes";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -460,6 +661,7 @@
 		};
 		AF2811BE2A7E5CD7007DEC66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58D695B3436E95F78F216CDC /* Pods-Mobile Payment QRIS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -468,9 +670,9 @@
 				DEVELOPMENT_TEAM = 86C7H55255;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Mobile Payment QRIS/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need the camera to scan the QR Codes";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -488,6 +690,7 @@
 		};
 		AF2811C02A7E5CD7007DEC66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFA1EA6CCD683ECDA5F0FA77 /* Pods-Mobile Payment QRISTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +711,7 @@
 		};
 		AF2811C12A7E5CD7007DEC66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBFEC411515CD30AA8CD5D4E /* Pods-Mobile Payment QRISTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +732,7 @@
 		};
 		AF2811C32A7E5CD7007DEC66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81F9D10C0230B9A8EEC3E006 /* Pods-Mobile Payment QRIS-Mobile Payment QRISUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +751,7 @@
 		};
 		AF2811C42A7E5CD7007DEC66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F31FBC2ADAB421936FD4CEB /* Pods-Mobile Payment QRIS-Mobile Payment QRISUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -602,6 +808,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AF679EDA2A7FDC720023ECED /* CoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AF679EDB2A7FDC720023ECED /* CoreDataModel.xcdatamodel */,
+			);
+			currentVersion = AF679EDB2A7FDC720023ECED /* CoreDataModel.xcdatamodel */;
+			path = CoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AF28118A2A7E5CD6007DEC66 /* Project object */;
 }

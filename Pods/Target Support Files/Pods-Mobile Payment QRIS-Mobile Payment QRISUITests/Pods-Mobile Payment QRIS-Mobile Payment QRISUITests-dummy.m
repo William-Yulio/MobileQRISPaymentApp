@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Mobile_Payment_QRIS_Mobile_Payment_QRISUITests : NSObject
+@end
+@implementation PodsDummy_Pods_Mobile_Payment_QRIS_Mobile_Payment_QRISUITests
+@end
